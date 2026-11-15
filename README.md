@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Mahesh | Systems & Full-Stack Developer" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Mahesh | Systems & Full-Stack Developer" />
 </div>
 
 <div align="center">
