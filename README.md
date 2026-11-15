@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=mahesh160708ti-collab&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=dev-m4hesx&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" alt="Profile Views" />
   <img src="https://img.shields.io/badge/Rust-Systems_Engineering-dea584?style=for-the-badge&logo=rust&logoColor=white" alt="Rust Systems" />
   <img src="https://img.shields.io/badge/Verification-Deterministic_I%2FO-10b981?style=for-the-badge&logo=shield&logoColor=white" alt="Deterministic Verification" />
   <img src="https://img.shields.io/badge/Architecture-High_Performance-0ea5e9?style=for-the-badge&logo=blueprint&logoColor=white" alt="High Performance Architecture" />
@@ -26,9 +26,9 @@
 
 ### 📌 Featured Repositories
 
-- 🦀 **[better-rea](https://github.com/mahesh160708ti-collab/better-rea)** — *Deterministic, State-Verified Binary & Web Reverse Engineering Engine in Rust.* High-accuracy decompiler and semantic graph engine with automated equivalence checking.
-- 🔬 **[verire](https://github.com/mahesh160708ti-collab/verire)** — *The 101% Verifiable Reverse Engineering Engine.* Combining native high-speed Rust kernels with intuitive TypeScript analysis harnesses.
-- 📦 **[discord-large-file-uploader](https://github.com/mahesh160708ti-collab/discord-large-file-uploader)** — *Automated Chunked File Transfer & Distribution Utility.* Built with TypeScript and Docker for seamless large asset uploading.
+- 🦀 **[better-rea](https://github.com/dev-m4hesx/better-rea)** — *Deterministic, State-Verified Binary & Web Reverse Engineering Engine in Rust.* High-accuracy decompiler and semantic graph engine with automated equivalence checking.
+- 🔬 **[verire](https://github.com/dev-m4hesx/verire)** — *The 101% Verifiable Reverse Engineering Engine.* Combining native high-speed Rust kernels with intuitive TypeScript analysis harnesses.
+- 📦 **[discord-large-file-uploader](https://github.com/dev-m4hesx/discord-large-file-uploader)** — *Automated Chunked File Transfer & Distribution Utility.* Built with TypeScript and Docker for seamless large asset uploading.
 
 ---
 
@@ -71,4 +71,4 @@
 ### 💬 Connect
 
 - ✉️ **Email:** [mahesh160708ti@gmail.com](mailto:mahesh160708ti@gmail.com)
-- 🐙 **GitHub:** [@mahesh160708ti-collab](https://github.com/mahesh160708ti-collab)
+- 🐙 **GitHub:** [@dev-m4hesx](https://github.com/dev-m4hesx)
