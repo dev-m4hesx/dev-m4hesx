@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <!-- Outer Border Gradient -->
+    <linearGradient id="outerBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Pillar Card Gradient -->
+    <linearGradient id="pillarBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131c2e" />
+      <stop offset="100%" stop-color="#0b111c" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <linearGradient id="emeraldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="indigoAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="amberAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-h2 { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #38bdf8; letter-spacing: 1.2px; }
+    .stat-number { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+    .stat-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #f1f5f9; }
+    .stat-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 400; fill: #94a3b8; }
+    .stat-code { font-family: 'SF Mono', Consolas, monospace; font-size: 10px; font-weight: 600; fill: #38bdf8; }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="996" height="196" rx="16" fill="url(#cardBg)" stroke="url(#outerBorder)" stroke-width="1.5" />
+
+  <!-- Section Title -->
+  <g transform="translate(36, 24)">
+    <text x="0" y="0" class="title-h2">CORE SYSTEMS &amp; PERFORMANCE BENCHMARKS</text>
+  </g>
+
+  <!-- Pillar 1: Rust Systems -->
+  <g transform="translate(36, 42)">
+    <rect width="216" height="134" rx="12" fill="url(#pillarBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="216" height="3" rx="1.5" fill="url(#amberAccent)" />
+    <text x="18" y="34" class="stat-number" fill="#fbbf24">100% Rust</text>
+    <text x="18" y="56" class="stat-label">Systems Core</text>
+    <text x="18" y="78" class="stat-code">zero-cost • safe memory</text>
+    <text x="18" y="100" class="stat-desc">Deterministic binary engine</text>
+    <text x="18" y="118" class="stat-desc">and byte-level parsing.</text>
+  </g>
+
+  <!-- Pillar 2: Graph-RAG Latency -->
+  <g transform="translate(272, 42)">
+    <rect width="216" height="134" rx="12" fill="url(#pillarBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="216" height="3" rx="1.5" fill="url(#cyanAccent)" />
+    <text x="18" y="34" class="stat-number" fill="#38bdf8">&lt; 16ms</text>
+    <text x="18" y="56" class="stat-label">Graph-RAG Latency</text>
+    <text x="18" y="78" class="stat-code">call-graph • AST slicing</text>
+    <text x="18" y="100" class="stat-desc">Sub-100 LOC context slices</text>
+    <text x="18" y="118" class="stat-desc">for real-time decompilation.</text>
+  </g>
+
+  <!-- Pillar 3: Mathematical Verification -->
+  <g transform="translate(508, 42)">
+    <rect width="216" height="134" rx="12" fill="url(#pillarBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="216" height="3" rx="1.5" fill="url(#emeraldAccent)" />
+    <text x="18" y="34" class="stat-number" fill="#34d399">101%</text>
+    <text x="18" y="56" class="stat-label">I/O Verification</text>
+    <text x="18" y="78" class="stat-code">differential CPU traces</text>
+    <text x="18" y="100" class="stat-desc">Mathematical equivalence</text>
+    <text x="18" y="118" class="stat-desc">against native target registers.</text>
+  </g>
+
+  <!-- Pillar 4: Full-Stack & Tooling -->
+  <g transform="translate(744, 42)">
+    <rect width="220" height="134" rx="12" fill="url(#pillarBg)" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="0" y="0" width="220" height="3" rx="1.5" fill="url(#indigoAccent)" />
+    <text x="18" y="34" class="stat-number" fill="#a5b4fc">Full-Stack</text>
+    <text x="18" y="56" class="stat-label">TypeScript &amp; React 19</text>
+    <text x="18" y="78" class="stat-code">Tailwind v4 • Docker</text>
+    <text x="18" y="100" class="stat-desc">Edge infrastructure and</text>
+    <text x="18" y="118" class="stat-desc">high-throughput utility tools.</text>
+  </g>
+</svg>

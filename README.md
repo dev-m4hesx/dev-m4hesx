@@ -16,12 +16,39 @@
 
 ---
 
-### 🚀 What I'm Working On
+### ⚡ Systems Architecture & Verification Pipeline
 
-- 🦀 **[better-rea](https://github.com/mahesh160708ti-collab/better-rea)** — Deterministic, state-verified binary and web reverse-engineering engine in Rust. Incorporates graph-indexed decompilation, bottom-up semantic propagation, and automated differential I/O equivalence testing.
-- 🔬 **[verire](https://github.com/mahesh160708ti-collab/verire)** — The 101% verifiable reverse engineering platform designed for mathematical accuracy and reproducible disassembly.
-- ⚡ **High-Throughput Utilities** — Containerized file distribution pipelines ([discord-large-file-uploader](https://github.com/mahesh160708ti-collab/discord-large-file-uploader)) and low-latency developer tooling.
-- 🌐 **Modern Web Systems** — Full-stack web interfaces engineered with React 19, Vite, TypeScript, and edge infrastructure.
+<div align="center">
+  <img src="./assets/engine-architecture.svg" width="100%" alt="Deterministic Binary Analysis & Decompilation Pipeline" />
+</div>
+
+---
+
+### 📌 Featured Repositories
+
+- 🦀 **[better-rea](https://github.com/mahesh160708ti-collab/better-rea)** — *Deterministic, State-Verified Binary & Web Reverse Engineering Engine in Rust.* High-accuracy decompiler and semantic graph engine with automated equivalence checking.
+- 🔬 **[verire](https://github.com/mahesh160708ti-collab/verire)** — *The 101% Verifiable Reverse Engineering Engine.* Combining native high-speed Rust kernels with intuitive TypeScript analysis harnesses.
+- 📦 **[discord-large-file-uploader](https://github.com/mahesh160708ti-collab/discord-large-file-uploader)** — *Automated Chunked File Transfer & Distribution Utility.* Built with TypeScript and Docker for seamless large asset uploading.
+
+---
+
+### 📊 Performance & Systems Metrics
+
+<div align="center">
+  <img src="./assets/metrics-overview.svg" width="100%" alt="Core Systems & Performance Benchmarks" />
+</div>
+
+<br/>
+
+#### 🛡️ Architectural Standards & Verification Matrix
+
+| Metric / Specification | Target & Architecture | Status |
+| :--- | :--- | :--- |
+| **Verification Rigor** | Automated I/O equivalence checks (`verify_equivalence`) | 🟢 Verified |
+| **Memory Safety** | Zero-cost abstractions & memory safety via Rust | 🟢 Safe |
+| **Analysis Latency** | Sub-millisecond graph query & function slice indexing | 🟢 Optimized |
+| **Local Privacy Guarantee** | 100% On-Device execution, zero telemetry leaks | 🔒 Verified Local |
+| **Edge Distribution** | Global CDN distribution & automated CI pipelines | 🟢 99.9% Uptime |
 
 ---
 
@@ -38,39 +65,6 @@
 | **Frontend** | React 19, Vite, Tailwind CSS v4, Lucide Icons, Modern Component Architecture |
 | **Backend & Runtime** | Node.js, Express, RESTful APIs, WebSockets, Docker Containers |
 | **DevOps & Cloud** | Git, GitHub Actions CI/CD, Linux Environments, Vercel Edge Network |
-
----
-
-### 📌 Featured Repositories
-
-- 🦀 **[better-rea](https://github.com/mahesh160708ti-collab/better-rea)** — *Deterministic, State-Verified Binary & Web Reverse Engineering Engine in Rust.* High-accuracy decompiler and semantic graph engine with automated equivalence checking.
-- 🔬 **[verire](https://github.com/mahesh160708ti-collab/verire)** — *The 101% Verifiable Reverse Engineering Engine.* Combining native high-speed Rust kernels with intuitive TypeScript analysis harnesses.
-- 📦 **[discord-large-file-uploader](https://github.com/mahesh160708ti-collab/discord-large-file-uploader)** — *Automated Chunked File Transfer & Distribution Utility.* Built with TypeScript and Docker for seamless large asset uploading.
-
----
-
-### 📊 GitHub Activity & Metrics
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mahesh160708ti-collab&theme=tokyonight" width="100%" alt="Mahesh's GitHub Activity Overview" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mahesh160708ti-collab&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mahesh160708ti-collab&theme=tokyonight" alt="Productive Time" />
-</div>
-
-<br/>
-
-#### ⚡ Engineering Benchmarks & Architectural Standards
-
-| Metric / Specification | Target & Architecture | Status |
-| :--- | :--- | :--- |
-| **Verification Rigor** | Automated I/O equivalence checks (`verify_equivalence`) | 🟢 Verified |
-| **Memory Safety** | Zero-cost abstractions & memory safety via Rust | 🟢 Safe |
-| **Analysis Latency** | Sub-millisecond graph query & function slice indexing | 🟢 Optimized |
-| **Local Privacy Guarantee** | 100% On-Device execution, zero telemetry leaks | 🔒 Verified Local |
-| **Edge Distribution** | Global CDN distribution & automated CI pipelines | 🟢 99.9% Uptime |
 
 ---
 
